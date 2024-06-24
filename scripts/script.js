@@ -31,6 +31,8 @@ function playGame() {
 			} else if (computerChoice === "scissors") {
 				console.log("You Win! Rock beats scissors");
 				humanScore += 1;
+			} else {
+				console.log("Tie!");
 			}
 		} else if (humanChoice === "paper") {
 			if (computerChoice === "scissors") {
@@ -39,6 +41,8 @@ function playGame() {
 			} else if (computerChoice === "rock") {
 				console.log("You Win! Paper beats rock");
 				humanScore += 1;
+			} else {
+				console.log("Tie!");
 			}
 		} else if (humanChoice === "scissors") {
 			if (computerChoice === "rock") {
@@ -47,6 +51,8 @@ function playGame() {
 			} else if (computerChoice === "paper") {
 				console.log("You Win! Scissors beat paper");
 				humanScore += 1;
+			} else {
+				console.log("Tie!");
 			}
 		} else {
 			console.log("Invalid shape");
