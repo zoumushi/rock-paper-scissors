@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
 
 body {
+	margin: 0;
 	width: 100vw;
 	height: 100vh;
-	margin: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -14,6 +14,11 @@ body {
 
 .emoji {
 	font-family: "Noto Color Emoji", sans-serif;
+	background-color: #709876;
+	padding: 16px;
+	margin: 16px;
+	border: 0px;
+	border-radius: 16px;
 }
 
 header {
@@ -34,9 +39,9 @@ main {
 }
 
 main #score {
+	margin: 0;
 	text-align: center;
 	font-size: 48px;
-	margin: 0;
 }
 
 main #symbols {
@@ -45,18 +50,10 @@ main #symbols {
 	font-size: 128px;
 }
 
-.emoji {
-	background-color: #709876;
-	padding: 16px;
-	margin: 16px;
-	border: 0px;
-	border-radius: 16px;
-}
-
 main #round-outcome {
+	margin: 0;
 	text-align: center;
 	font-size: 32px;
-	margin: 0;
 }
 
 main #buttons {
@@ -66,8 +63,8 @@ main #buttons {
 }
 
 main #buttons button {
-	font-size: 112px;
 	margin: 10px;
+	font-size: 112px;
 }
 
 footer {
