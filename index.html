@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="./scripts/script.js" defer></script>
+	<link rel="stylesheet" href="./styles/style.css">
 	<title>Rock Paper Scissors</title>
 </head>
+
 <body>
+	<header>
+		<h1>Rock Paper Scissors</h1>
+	</header>
+	<main>
+		<div>
+			<p id="score">
+				<span id="player-score">0</span>
+				-
+				<span id="computer-score">0</span>
+			</p>
+			<div id="symbols">
+				<p class="emoji" id="player-selection">❔</p>
+				<p class="emoji" id="computer-selection">❔</p>
+			</div>
+			<p id="round-outcome"></p>
+		</div>
+		<div id="buttons">
+			<button class="emoji" id="rock">✊</button>
+			<button class="emoji" id="paper">✋</button>
+			<button class="emoji" id="scissors">✌</button>
+		</div>
+	</main>
+	<footer>
+		<p>
+			Emoji font used is <a href="https://github.com/googlefonts/noto-emoji">Google Noto Emoji Color</a>.
+			Coded by <a href="https://github.com/zoumushi">zoumushi</a>.
+			This site was made with 1080p 16:9 displays in mind.
+		</p>
+	</footer>
 </body>
+
 </html>
